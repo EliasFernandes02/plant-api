@@ -1,6 +1,7 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "../config/database.js";
 
+
 export const Categoria = sequelize.define('Categoria', {
     nome: {
         type: DataTypes.STRING(150),
